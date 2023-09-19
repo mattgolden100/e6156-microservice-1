@@ -7,8 +7,7 @@ class StudentsResource:
     # It is also pretty sloppy code.
     #
 
-    students_file = \
-        r"C:\Users\mattg\Desktop\School\Grad School\6156\e6156-microservice-1\resources\old-students.json"
+    students_file = "resources\old-students.json"
 
     def __init__(self):
         self.students = None
